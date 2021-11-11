@@ -28,10 +28,6 @@ let user = {
   sayHello(name: string){console.log(`Hello, ${name}`);}
 };
 
-
-
-
-
 function App() {
   return (
     <div className="App">
