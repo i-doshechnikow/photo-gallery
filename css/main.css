@@ -6,6 +6,8 @@
 
 :root {
   --dark: #070707;
+  --sizeindex: calc(1vw + 1vh);
+  --transition: 0.75s cubic-bezier(0.23, 0.7, 0, 1);
 }
 
 @font-face {
@@ -29,4 +31,15 @@ html {
   font-family: raleway_m, sans-serif;
   overflow: hidden;
   line-height: 1.8;
+}
+
+.slider {
+  height: 100%;
+  transform: rotate(15deg);
+  overflow: visible;
+  top: 10vh;
+}
+
+.slider-wrapper {
+  transition: var(--transition) !important;
 }
